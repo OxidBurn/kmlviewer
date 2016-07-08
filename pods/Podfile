@@ -1,0 +1,17 @@
+xcodeproj '../prj/KMLViewer.xcodeproj'
+
+platform :ios, '7.0'
+
+inhibit_all_warnings!
+
+target 'KMLViewer' do
+
+pod 'Reachability'
+pod 'BlocksKit'
+pod 'SVProgressHUD'
+pod 'AFNetworking'
+pod 'ASIHTTPRequest'
+pod 'JSONKit-NoWarning'
+pod 'SMXMLDocument'
+
+end

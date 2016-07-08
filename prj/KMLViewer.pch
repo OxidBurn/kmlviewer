@@ -1,0 +1,26 @@
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+	
+	// Use logging using NSLog only for debug purposes.
+	// NSLog significantly decrease performance.
+
+	#ifdef __DEBUG__
+		#define DbgLog(s, ...) NSLog(@"%-35s | %s", [[NSString stringWithFormat : (s), ##__VA_ARGS__] UTF8String], [[[NSString stringWithUTF8String : __FUNCTION__] lastPathComponent] UTF8String])
+	#else
+		#define DbgLog(s, ...) 
+	#endif
+
+	// Import core extensions
+	#import "NSMutableArray+Weak.h"
+	#import "NSDictionary+Types.h"
+	#import "NSArray+SelectorWithArguments.h"
+	#import "NSOperationQueue+Class.h"
+	#import "NSThread+Blocks.h"
+	#import "NSObject+Blocks.h"
+
+	// Import UI extensions
+	#import "UIImage+Resizing.h"
+
+#endif
+
