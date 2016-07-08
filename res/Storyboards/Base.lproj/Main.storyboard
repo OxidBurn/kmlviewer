@@ -3,12 +3,13 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--KML Files List-->
         <scene sceneID="nge-8D-9dy">
             <objects>
-                <viewController storyboardIdentifier="RootStoryboardID" id="PjL-Dh-yEe" customClass="RootViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootStoryboardID" extendedLayoutIncludesOpaqueBars="YES" id="PjL-Dh-yEe" customClass="RootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fwg-2z-4W0"/>
                         <viewControllerLayoutGuide type="bottom" id="5RT-G9-ARW"/>
@@ -16,9 +17,34 @@
                     <view key="view" contentMode="scaleToFill" id="pod-wZ-LsR">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kKI-Og-wek">
+                                <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemsCellID" id="Spl-ex-oXz">
+                                        <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Spl-ex-oXz" id="t0B-QS-hun">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="kKI-Og-wek" secondAttribute="trailing" constant="-20" id="EGY-fS-JPo"/>
+                            <constraint firstItem="kKI-Og-wek" firstAttribute="height" secondItem="pod-wZ-LsR" secondAttribute="height" id="PYY-Wl-6vC"/>
+                            <constraint firstItem="kKI-Og-wek" firstAttribute="top" secondItem="fwg-2z-4W0" secondAttribute="bottom" id="aup-rC-vqD"/>
+                            <constraint firstItem="kKI-Og-wek" firstAttribute="width" secondItem="pod-wZ-LsR" secondAttribute="width" id="lWf-4G-zaw"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="fLe-Dr-11G"/>
+                    <navigationItem key="navigationItem" title="KML Files List" id="fLe-Dr-11G"/>
+                    <connections>
+                        <outlet property="kmlFilesList" destination="kKI-Og-wek" id="T1M-EN-Ejd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HNw-Sw-dx8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

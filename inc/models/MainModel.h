@@ -10,4 +10,12 @@
 
 @interface MainModel : NSObject
 
+// properties
+
+@property (strong, nonatomic, readonly) NSArray* arrayOfFiles;
+
+// methods
+
+- (NSString*) getPathOfFileWithIndex: (NSUInteger) index;
+
 @end

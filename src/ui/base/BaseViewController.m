@@ -39,9 +39,6 @@
 - (void) viewDidLoad
 {
     [super viewDidLoad];
-    
-    if ([self respondsToSelector: @selector(setEdgesForExtendedLayout:)])
-        self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
 - (void) viewWillAppear: (BOOL) animated
@@ -54,6 +51,8 @@
 - (void) loadView
 {
     [super loadView];
+    
+    self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 

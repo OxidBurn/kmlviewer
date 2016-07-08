@@ -91,5 +91,31 @@ static NSDateFormatter* defaultDateFormatter = nil;
   return [predicate evaluateWithObject: [email lowercaseString]];
 }
 
+#pragma mark - App root directory -
+
++ (NSString*) getPathToTemporaryDirectoryWithPath: (NSString*) filePath
+{
+    NSString* newFilePath = [NSTemporaryDirectory() stringByAppendingString: filePath];
+    
+    return newFilePath;
+}
+
++ (NSArray*) getFolderItems: (NSString*) folderPath
+{
+    NSFileManager* fileManager = [NSFileManager defaultManager];
+    
+    NSError* gettingFilesError = nil;
+    
+    NSArray* folderContent = [fileManager contentsOfDirectoryAtPath: folderPath
+                                                              error: &gettingFilesError];
+    
+    if ( gettingFilesError )
+    {
+        NSLog(@"Problem with getting files list from folder: %@", gettingFilesError.localizedDescription);
+    }
+    
+    return folderContent;
+}
+
 
 @end

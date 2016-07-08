@@ -6,8 +6,10 @@
 //  Copyright © 2016 Nikolay Chaban. All rights reserved.
 //
 
+// Frameworks
 #import <Foundation/Foundation.h>
+@import UIKit;
 
-@interface MainViewModel : NSObject
+@interface MainViewModel : NSObject <UITableViewDataSource, UITableViewDelegate>
 
 @end

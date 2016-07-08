@@ -18,4 +18,6 @@
 //! Create default bold font of the given size
 + (UIFont*) defaultBoldFontOfSize: (CGFloat) size;
 
++ (NSArray*) getFolderItems: (NSString*) folderPath;
+
 @end

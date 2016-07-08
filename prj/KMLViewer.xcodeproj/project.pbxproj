@@ -12,9 +12,6 @@
 		594F81E61D2F8795002A8C66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594F81E51D2F8795002A8C66 /* CoreGraphics.framework */; };
 		594F82521D2F8A8F002A8C66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F82501D2F8A8F002A8C66 /* main.m */; };
 		594F825F1D2F8AA6002A8C66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594F82541D2F8AA6002A8C66 /* Assets.xcassets */; };
-		594F82611D2F8AA6002A8C66 /* Dubai - Sky Dubai - Desert - ZPAR2.kmz in Resources */ = {isa = PBXBuildFile; fileRef = 594F82571D2F8AA6002A8C66 /* Dubai - Sky Dubai - Desert - ZPAR2.kmz */; };
-		594F82621D2F8AA6002A8C66 /* Dubai - Skydive Dubai - Palm Jumeirah - ZPAR.kmz in Resources */ = {isa = PBXBuildFile; fileRef = 594F82581D2F8AA6002A8C66 /* Dubai - Skydive Dubai - Palm Jumeirah - ZPAR.kmz */; };
-		594F82631D2F8AA6002A8C66 /* example.kmz in Resources */ = {isa = PBXBuildFile; fileRef = 594F82591D2F8AA6002A8C66 /* example.kmz */; };
 		594F82641D2F8AA6002A8C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594F825B1D2F8AA6002A8C66 /* LaunchScreen.storyboard */; };
 		594F82AC1D2F8AFB002A8C66 /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F828B1D2F8AFB002A8C66 /* Error.m */; };
 		594F82AD1D2F8AFB002A8C66 /* NSArray+SelectorWithArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F828D1D2F8AFB002A8C66 /* NSArray+SelectorWithArguments.m */; };
@@ -42,9 +39,9 @@
 		594F82C41D2F8AFB002A8C66 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F82AB1D2F8AFB002A8C66 /* Utils.m */; };
 		594F82C81D2F8BD6002A8C66 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F82C71D2F8BD6002A8C66 /* RootViewController.m */; };
 		594F82CD1D2F9027002A8C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594F82CB1D2F9027002A8C66 /* Main.storyboard */; };
-		594F82D01D2F91BE002A8C66 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F82CF1D2F91BE002A8C66 /* MainView.m */; };
 		594F82D41D2F91F7002A8C66 /* MainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F82D31D2F91F7002A8C66 /* MainViewModel.m */; };
 		594F82D71D2F920A002A8C66 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 594F82D61D2F920A002A8C66 /* MainModel.m */; };
+		594F82DD1D2F97E3002A8C66 /* KMZ files in Resources */ = {isa = PBXBuildFile; fileRef = 594F82DC1D2F97E3002A8C66 /* KMZ files */; };
 		B46FAE18351020B591FB1A6D /* libPods-KMLViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9B38842479362C5C5F64F2 /* libPods-KMLViewer.a */; };
 /* End PBXBuildFile section */
 
@@ -70,9 +67,6 @@
 		594F824F1D2F8A8F002A8C66 /* KMLViewer.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLViewer.pch; sourceTree = "<group>"; };
 		594F82501D2F8A8F002A8C66 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		594F82541D2F8AA6002A8C66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		594F82571D2F8AA6002A8C66 /* Dubai - Sky Dubai - Desert - ZPAR2.kmz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dubai - Sky Dubai - Desert - ZPAR2.kmz"; sourceTree = "<group>"; };
-		594F82581D2F8AA6002A8C66 /* Dubai - Skydive Dubai - Palm Jumeirah - ZPAR.kmz */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dubai - Skydive Dubai - Palm Jumeirah - ZPAR.kmz"; sourceTree = "<group>"; };
-		594F82591D2F8AA6002A8C66 /* example.kmz */ = {isa = PBXFileReference; lastKnownFileType = file; path = example.kmz; sourceTree = "<group>"; };
 		594F825C1D2F8AA6002A8C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594F82681D2F8AFB002A8C66 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		594F826A1D2F8AFB002A8C66 /* NSArray+SelectorWithArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SelectorWithArguments.h"; sourceTree = "<group>"; };
@@ -82,7 +76,7 @@
 		594F826E1D2F8AFB002A8C66 /* NSOperationQueue+Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueue+Class.h"; sourceTree = "<group>"; };
 		594F826F1D2F8AFB002A8C66 /* NSThread+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+Blocks.h"; sourceTree = "<group>"; };
 		594F82711D2F8AFB002A8C66 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
-		594F82721D2F8AFB002A8C66 /* KMLViewerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMLViewerAppDelegate.h; path = ../inc/KMLViewerAppDelegate.h; sourceTree = "<group>"; };
+		594F82721D2F8AFB002A8C66 /* KMLViewerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLViewerAppDelegate.h; sourceTree = "<group>"; };
 		594F82751D2F8AFB002A8C66 /* BaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseOperation.h; sourceTree = "<group>"; };
 		594F82771D2F8AFB002A8C66 /* OperationsQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationsQueue.h; sourceTree = "<group>"; };
 		594F82781D2F8AFB002A8C66 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
@@ -125,12 +119,11 @@
 		594F82C71D2F8BD6002A8C66 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = main/RootViewController.m; sourceTree = "<group>"; };
 		594F82CA1D2F8BF1002A8C66 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		594F82CC1D2F9027002A8C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		594F82CF1D2F91BE002A8C66 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = main/MainView.m; sourceTree = "<group>"; };
 		594F82D31D2F91F7002A8C66 /* MainViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewModel.m; path = models/MainViewModel.m; sourceTree = "<group>"; };
 		594F82D61D2F920A002A8C66 /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainModel.m; path = models/MainModel.m; sourceTree = "<group>"; };
 		594F82D91D2F9234002A8C66 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
 		594F82DA1D2F9234002A8C66 /* MainViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewModel.h; sourceTree = "<group>"; };
-		594F82DB1D2F9244002A8C66 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		594F82DC1D2F97E3002A8C66 /* KMZ files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "KMZ files"; path = "../res/KMZ files"; sourceTree = "<group>"; };
 		7B2716B3C27BEB251D9795AA /* Pods-KMLViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMLViewer.release.xcconfig"; path = "../pods/Pods/Target Support Files/Pods-KMLViewer/Pods-KMLViewer.release.xcconfig"; sourceTree = "<group>"; };
 		9E238826E701999A1A753D6C /* Pods-KMLViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMLViewer.debug.xcconfig"; path = "../pods/Pods/Target Support Files/Pods-KMLViewer/Pods-KMLViewer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,8 +203,8 @@
 		594F824C1D2F8A75002A8C66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				594F82DC1D2F97E3002A8C66 /* KMZ files */,
 				594F82531D2F8AA6002A8C66 /* Images */,
-				594F82561D2F8AA6002A8C66 /* KML files */,
 				594F825A1D2F8AA6002A8C66 /* Storyboards */,
 			);
 			name = Resources;
@@ -221,7 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				594F82661D2F8AFB002A8C66 /* inc */,
-				594F82721D2F8AFB002A8C66 /* KMLViewerAppDelegate.h */,
 				594F82891D2F8AFB002A8C66 /* src */,
 			);
 			name = Sources;
@@ -234,17 +226,6 @@
 			);
 			name = Images;
 			path = ../res/Images;
-			sourceTree = "<group>";
-		};
-		594F82561D2F8AA6002A8C66 /* KML files */ = {
-			isa = PBXGroup;
-			children = (
-				594F82571D2F8AA6002A8C66 /* Dubai - Sky Dubai - Desert - ZPAR2.kmz */,
-				594F82581D2F8AA6002A8C66 /* Dubai - Skydive Dubai - Palm Jumeirah - ZPAR.kmz */,
-				594F82591D2F8AA6002A8C66 /* example.kmz */,
-			);
-			name = "KML files";
-			path = "../res/KML files";
 			sourceTree = "<group>";
 		};
 		594F825A1D2F8AA6002A8C66 /* Storyboards */ = {
@@ -266,6 +247,7 @@
 				594F82701D2F8AFB002A8C66 /* helpers */,
 				594F82731D2F8AFB002A8C66 /* server */,
 				594F82791D2F8AFB002A8C66 /* ui */,
+				594F82721D2F8AFB002A8C66 /* KMLViewerAppDelegate.h */,
 			);
 			name = inc;
 			path = ../inc;
@@ -472,7 +454,6 @@
 			isa = PBXGroup;
 			children = (
 				594F82C71D2F8BD6002A8C66 /* RootViewController.m */,
-				594F82CF1D2F91BE002A8C66 /* MainView.m */,
 			);
 			name = main;
 			sourceTree = "<group>";
@@ -480,7 +461,6 @@
 		594F82C91D2F8BF1002A8C66 /* main */ = {
 			isa = PBXGroup;
 			children = (
-				594F82DB1D2F9244002A8C66 /* MainView.h */,
 				594F82CA1D2F8BF1002A8C66 /* RootViewController.h */,
 			);
 			path = main;
@@ -567,11 +547,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594F82DD1D2F97E3002A8C66 /* KMZ files in Resources */,
 				594F82CD1D2F9027002A8C66 /* Main.storyboard in Resources */,
-				594F82611D2F8AA6002A8C66 /* Dubai - Sky Dubai - Desert - ZPAR2.kmz in Resources */,
 				594F825F1D2F8AA6002A8C66 /* Assets.xcassets in Resources */,
-				594F82621D2F8AA6002A8C66 /* Dubai - Skydive Dubai - Palm Jumeirah - ZPAR.kmz in Resources */,
-				594F82631D2F8AA6002A8C66 /* example.kmz in Resources */,
 				594F82641D2F8AA6002A8C66 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,7 +615,6 @@
 				594F82BC1D2F8AFB002A8C66 /* BaseViewController.m in Sources */,
 				594F82C41D2F8AFB002A8C66 /* Utils.m in Sources */,
 				594F82C21D2F8AFB002A8C66 /* UIViewController+PresentTransparent.m in Sources */,
-				594F82D01D2F91BE002A8C66 /* MainView.m in Sources */,
 				594F82C81D2F8BD6002A8C66 /* RootViewController.m in Sources */,
 				594F82BD1D2F8AFB002A8C66 /* UIImage+AHKAdditions.m in Sources */,
 				594F82AD1D2F8AFB002A8C66 /* NSArray+SelectorWithArguments.m in Sources */,

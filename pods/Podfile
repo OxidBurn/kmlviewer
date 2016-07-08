@@ -13,5 +13,7 @@ pod 'AFNetworking'
 pod 'ASIHTTPRequest'
 pod 'JSONKit-NoWarning'
 pod 'SMXMLDocument'
+pod 'ZipKit'
+pod 'iOS-KML-Framework'
 
 end
